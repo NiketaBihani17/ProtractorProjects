@@ -9,7 +9,7 @@ describe('calculator test', function () {
         homepage.enterSecondNumber('200');
         homepage.clickGo();
         homepage.verifyResult('300');
-        browser.sleep(2000);
+        browser.sleep(3000);
 
     });
 });
